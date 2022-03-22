@@ -16,6 +16,5 @@
 
 ## 其他版本
 
-* 来自**yep**的分享
-  * 参见[3rd/yep](3rd/yep)
-  * 实验一：进程控制 √
+* 来自**yip**：参见[3rd/yip](3rd/yip)
+  - [x] [实验一：进程控制](3rd/yip/experiment/ex_1)

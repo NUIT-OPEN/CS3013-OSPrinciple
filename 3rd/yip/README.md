@@ -3,7 +3,7 @@
 
 ## 文档索引
 
-根目录：CS3013-OSPrinciple/yepsZone/
+根目录：CS3013-OSPrinciple/yipsZone/
 
 | 文件             | 相对路径           |
 | ---------------- | ------------------ |
