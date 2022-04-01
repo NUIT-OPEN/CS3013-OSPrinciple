@@ -13,3 +13,7 @@ add_executable(ex_2_m2 ex_2/m2.c)
 add_executable(ex_2_m3 ex_2/m3.c)
 add_executable(ex_2_m4 ex_2/m4.c)
 add_executable(ex_2_m5 ex_2/m5.c)
+
+add_executable(ex_4_m1 ex_4/m1.c)
+add_executable(ex_4_m2 ex_4/m2.c)
+add_executable(ex_4_m3 ex_4/m3.c)
