@@ -13,6 +13,9 @@ add_executable(a_ex3 part_a/ex_3/emulate.c)
 add_executable(a_ex4 part_a/ex_4/signal.c)
 add_executable(a_ex5 part_a/ex_5/emulate.c)
 
+add_executable(a_ex6_m1 part_a/ex_6/m1.c)
+add_executable(a_ex6_m2 part_a/ex_6/m2.c)
+
 add_executable(b_ex1_m1 part_b/ex_1/m1.c)
 add_executable(b_ex1_m2 part_b/ex_1/m2.c)
 add_executable(b_ex1_m3 part_b/ex_1/m3.c)
