@@ -87,3 +87,33 @@ games:x:5:60:games:/usr/games:/usr/sbin/nologin
 ...以下省略若干行...
 total file size: 1760
 ```
+
+## 任务6
+
+设计一个程序以只读方式打开系统配置文件“/etc/inittab”，从中读取 100 个宇符并打印。
+
+* 代码实现：参见[m6.c](m6.c)
+
+* 运行结果
+
+```log
+ubuntu@primary:ex_7$ gcc m6.c && ./a.out 
+# inittab is no longer used when using systemd.
+#
+# ADDING CONFIGURATION HERE WILL HAVE NO EFFECT ON
+ubuntu@primary:ex_7$ 
+```
+
+## 任务7
+
+通过fseek 函数计算 /etc/inittab 文件的长度。
+
+* 代码实现：参见[m7.c](m7.c)
+
+* 运行结果
+
+```log
+ubuntu@primary:ex_7$ gcc m7.c && ./a.out 
+509
+ubuntu@primary:ex_7$ 
+```
